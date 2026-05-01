@@ -1,19 +1,19 @@
-function doubleIt(num) {
-    const double = num * 2; 
-    console.log(double); 
+function doubleIt(number) {
+    const doubled = number * 2; 
+    console.log(doubled); 
 }
 
-console.log(doubleIt(5));
+console.log("I will call the function")
+doubleIt(15); 
+doubleIt(30); 
 
-const num = 55; 
-doubleIt(num);
 
-const money = 112; 
-doubleIt(money);
-
-function difference(num1, num2) {
+function difference (num1, num2) {
     const diff = num1 - num2; 
-    console.log(diff); 
+    console.log(num1, num2, "difference is", diff); 
 }
 
-difference(100, 50); 
+const fatherAge = 40; 
+const myAge = 10; 
+
+differencce(fatherAge, myAge)
