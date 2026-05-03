@@ -29,3 +29,4 @@ function sumOfEvenNumber(numbers) {
 
 const sum = sumOfEvenNumber(numbers);
 console.log("Sum of even numbers is: ", sum);
+
